@@ -9,7 +9,6 @@ func PrintNbr(nb int) {
 
 	if nb == 0 {
 		z01.PrintRune('0')
-
 		return
 	}
 	if nb < 0 {
@@ -24,5 +23,4 @@ func PrintNbr(nb int) {
 		nb = nb % i
 		i = i / 10
 	}
-
 }
