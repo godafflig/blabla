@@ -7,6 +7,9 @@ import (
 func PrintNbr(nb int) {
 	var i int = 1
 
+	if nb == 0 {
+		z01.PrintRune('0')
+	}
 	if nb < 0 {
 		nb = nb * -1
 		z01.PrintRune('-')
