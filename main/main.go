@@ -3,5 +3,5 @@ package main
 import "piscine"
 
 func main() {
-	piscine.IsNegative(0)
+	piscine.PrintComb()
 }
