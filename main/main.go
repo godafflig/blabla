@@ -4,5 +4,4 @@ import "piscine"
 
 func main() {
 	piscine.PrintComb2()
-	
 }
