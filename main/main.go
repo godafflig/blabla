@@ -7,8 +7,8 @@ import (
 )
 
 func main() {
-	z01.PrintRune(piscine.FirstRune("hello!"))
-	z01.PrintRune(piscine.FirstRune("salut!"))
-	z01.PrintRune(piscine.FirstRune("ola!"))
+	z01.PrintRune(piscine.FirstRune("Hello!"))
+	z01.PrintRune(piscine.FirstRune("Salut!"))
+	z01.PrintRune(piscine.FirstRune("Ola!"))
 	z01.PrintRune('\n')
 }
