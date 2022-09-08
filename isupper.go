@@ -9,7 +9,6 @@ func IsUpper(s string) bool {
 		for j = 0; j < len(s); j++ {
 			if string(alphabet[i]) == string(s[j]) {
 				count++
-
 			}
 		}
 	}
