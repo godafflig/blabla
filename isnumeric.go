@@ -5,9 +5,9 @@ func IsNumeric(s string) bool {
 	var count int = 0
 	var i int
 	var j int
-	for i = 0; i < len(alphabet)-1; i++ {
-		for j = 0; j < len(s); j++ {
-			if string(alphabet[i]) == string(s[j]) {
+	for i = 0; i < len(s)-1; i++ {
+		for j = 0; j <= len(alphabet)-1; j++ {
+			if string(alphabet[j]) == string(s[i]) {
 				count++
 			}
 		}
